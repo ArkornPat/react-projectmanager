@@ -17,7 +17,7 @@ function App() {
       const newTask = {
         text: text,
         projectId: prev.selectedProjectId,
-        id: taskId, // เปลี่ยนจาก taskid เป็น id เพื่อความสอดคล้อง
+        id: taskId,
       };
       return {
         ...prev,
